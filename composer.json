@@ -22,7 +22,7 @@
   }, 
   "autoload": {
     "psr-0": {
-      "heimabailang\\LaravelSettings\\": "src/"
+      "Hongyukeji\\LaravelSettings\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -32,7 +32,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "heimabailang\\LaravelSettings\\Providers\\SettingsServiceProvider"
+        "Hongyukeji\\LaravelSettings\\Providers\\SettingsServiceProvider"
       ],
       "aliases": {
         "Settings": "heimabailang\\LaravelSettings\\Facades\\Settings"
