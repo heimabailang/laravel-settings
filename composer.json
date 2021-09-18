@@ -1,5 +1,5 @@
 {
-  "name": "hongyukeji/laravel-settings",
+  "name": "heimabailang/laravel-settings",
   "keywords": [
     "settings",
     "persistent settings",
@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-0": {
-      "Hongyukeji\\LaravelSettings\\": "src/"
+      "heimabailang\\LaravelSettings\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -35,10 +35,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Hongyukeji\\LaravelSettings\\Providers\\SettingsServiceProvider"
+        "heimabailang\\LaravelSettings\\Providers\\SettingsServiceProvider"
       ],
       "aliases": {
-        "Settings": "Hongyukeji\\LaravelSettings\\Facades\\Settings"
+        "Settings": "heimabailang\\LaravelSettings\\Facades\\Settings"
       }
     }
   }
